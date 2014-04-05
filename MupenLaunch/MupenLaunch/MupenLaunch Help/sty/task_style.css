@@ -1,0 +1,245 @@
+﻿/* <html><head><meta name="robots" content="noindex"></head></html> */
+
+BODY {
+	margin: 2px 12px 12px
+	}
+
+H1 {
+	font-size: 11pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	margin-bottom: 0
+	}
+
+H2 {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	margin-top: 0;
+	margin-bottom: -10px
+	}
+
+H3 {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: -4px;
+	margin-bottom: -4px
+	}
+
+P {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+	text-decoration: none
+	}
+
+OL {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+	list-style-position: outside;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: -18px;
+	padding-left: 40px
+	}
+
+OL LI {
+	margin-top: 6px;
+	margin-bottom: 6px
+	}
+
+OL P {
+	margin-top: 6px;
+	margin-bottom: 6px
+	}
+
+UL {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+	list-style-type: square;
+	list-style-position: outside;
+/*	margin-top: 12px;
+	margin-bottom: 12px;*/
+	margin-left: -24px;
+	padding-left: 40px
+	}
+
+UL LI {
+	margin-top: 6px;
+	margin-bottom: 6px
+	}
+
+
+UL P {
+	margin-top: 6px;
+	margin-bottom: 6px
+	}
+
+A {
+	color: #00f;
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+	text-decoration: none
+	}
+
+A:hover {
+	color: #00f;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	text-decoration: underline
+	}
+
+HR {
+	text-decoration: none;
+	border: solid 1px #bfbfbf
+	}
+
+TD {
+	padding: 6px
+	}
+
+CODE {
+	color: black;
+	font-size: 9pt;
+	font-family: Verdana, Courier, sans-serif
+	}
+
+
+/* ----- task page styles ----- */
+
+#header {
+	margin: -2px 6px 0px 6px
+	}
+
+#caticon {
+	float: left
+	}
+
+#pagetitle {
+	margin: 12px 0px 20px 40px;
+	width: 88%;
+	border: solid 1px #fff
+	}
+
+#mainbox {
+	margin-top: 16px;
+	margin-left: 6px;
+	margin-right: 6px
+	}
+
+.caption {
+	font-size: 8pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+}
+
+DIV.taskbox {
+	background-color: #e6edff;
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin: 12px 0;
+	padding: 2px 12px;
+	border: solid 1px #bfbfbf
+	}
+
+DIV.taskbox H2 {
+	margin-top: 8px;
+	margin-bottom: -4px
+	}
+
+DIV.notebox {
+	background-color: #f8f8f8;
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin: 12px 0;
+	padding: 2px 12px;
+	border: 1px solid #aaaaaa;
+	}
+
+TABLE.blue {
+	border-top: 1px solid #bfbfbf;
+	border-left: 1px solid #bfbfbf;
+	margin: 12px 0px;
+	}
+
+TABLE.blue TH {
+	background-color: #e6edff;
+	border-right: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+	padding: 6px 8px;
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top
+	}
+
+TABLE.blue TD {
+	border-right: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+	padding: 6px 8px;
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	vertical-align: top
+	}
+
+.seealso {
+	margin-top: 4px;
+	margin-bottom: 4px
+	}
+
+
+/* ----- toc ----- */
+
+H2.toc {
+	font-size: 11pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: -6px
+	}
+
+UL.toc LI  {
+	list-style-image: url(../gfx/orngbullet.gif);
+	list-style-position: outside;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 0px
+	}
+
+
+/* ----- version history ----- */
+
+H3.vh {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 22px;
+	margin-bottom: -4px
+	}
+
+H5.vh {
+	font-size: 7pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-weight: normal;
+	color: gray;
+	margin-top: 6px;
+	margin-bottom: -4px
+	}
+
+UL.vh {
+	}
+
+UL.vh LI {
+/*	margin-left:6px;
+	padding-left:8px*/
+	}
+
+
+
+
+
+
+

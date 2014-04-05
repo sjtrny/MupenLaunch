@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>v64</string>
+				<string>n64</string>
+				<string>z64</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>Cart.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Nintendo 64 Cart</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>MupenLaunch</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>MupenLaunch Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>MupenLaunch Help</string>
+	<key>CFBundleIconFile</key>
+	<string>Mupen.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.sjtrny.MupenLaunch</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MupenLaunch</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.055</string>
+	<key>CFBundleSignature</key>
+	<string>m64l</string>
+	<key>CFBundleVersion</key>
+	<string>1.055</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.entertainment</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012 Stephen Tierney. All rights reserved.</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>http://sjtrny.com/storage/MupenLaunch/updates/appcast.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIConsole</key>
+	<string>/mupen64plus.app/Contents/MacOS/mupen64plus</string>
+	<key>PluginDirectory</key>
+	<string>/mupen64plus.app/Contents/MacOS</string>
+	<key>CoreLibrary</key>
+	<string>/mupen64plus.app/Contents/MacOS/libmupen64plus.dylib</string>
+	<key>VideoPlugins</key>
+	<dict>
+		<key>Glide</key>
+		<string>mupen64plus-video-glide64</string>
+		<key>Rice</key>
+		<string>mupen64plus-video-rice</string>
+		<key>Arachnoid</key>
+		<string>mupen64plus-video-arachnoid</string>
+	</dict>
+</dict>
+</plist>

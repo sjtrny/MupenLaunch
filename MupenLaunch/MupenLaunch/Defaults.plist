@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Resolution</key>
+	<string>800x600</string>
+	<key>VideoPlugin</key>
+	<string>Glide</string>
+	<key>Fullscreen</key>
+	<false/>
+	<key>ControllersLastModifedDate</key>
+	<date>2012-07-03T04:22:52Z</date>
+	<key>Mapping</key>
+	<array>
+		<string>DPad R</string>
+		<string>DPad L</string>
+		<string>DPad D</string>
+		<string>DPad U</string>
+		<string>Start</string>
+		<string>Z Trig</string>
+		<string>B Button</string>
+		<string>A Button</string>
+		<string>C Button R</string>
+		<string>C Button L</string>
+		<string>C Button D</string>
+		<string>C Button U</string>
+		<string>R Trig</string>
+		<string>L Trig</string>
+		<string>Mempak switch</string>
+		<string>Rumblepak switch</string>
+		<string>X Axis Left</string>
+		<string>X Axis Right</string>
+		<string>Y Axis Up</string>
+		<string>Y Axis Down</string>
+	</array>
+	<key>Build</key>
+	<string>Default</string>
+	<key>CustomBuildPath</key>
+	<string></string>
+	<key>Controllers</key>
+	<dict>
+		<key>Keyboard</key>
+		<dict>
+			<key>USBName</key>
+			<string>Keyboard</string>
+			<key>plugged</key>
+			<true/>
+			<key>plugin</key>
+			<integer>2</integer>
+			<key>mouse</key>
+			<false/>
+			<key>Mapping</key>
+			<array>
+				<string>key(100)</string>
+				<string>key(97)</string>
+				<string>key(115)</string>
+				<string>key(119)</string>
+				<string>key(1)</string>
+				<string>key(122)</string>
+				<string>key(306)</string>
+				<string>key(1)</string>
+				<string>key(108)</string>
+				<string>key(106)</string>
+				<string>key(107)</string>
+				<string>key(105)</string>
+				<string>key(99)</string>
+				<string>key(120)</string>
+				<string>key(44)</string>
+				<string>key(46)</string>
+				<string>key(276)</string>
+				<string>key(275)</string>
+				<string>key(273)</string>
+				<string>key(274)</string>
+			</array>
+		</dict>
+		<key>Xbox 360 Controller</key>
+		<dict>
+			<key>USBName</key>
+			<string>Wireless 360 Controller</string>
+			<key>plugged</key>
+			<true/>
+			<key>plugin</key>
+			<integer>2</integer>
+			<key>mouse</key>
+			<false/>
+			<key>AnalogDeadzone</key>
+			<string>4096,4096</string>
+			<key>AnalogPeak</key>
+			<string>32768,32768</string>
+			<key>Mapping</key>
+			<array>
+				<string>button(3)</string>
+				<string>button(2)</string>
+				<string>button(0)</string>
+				<string>button(1)</string>
+				<string>button(4)</string>
+				<string>axis(4+)</string>
+				<string>button(13)</string>
+				<string>button(11)</string>
+				<string>axis(2+)</string>
+				<string>axis(2-)</string>
+				<string>axis(3+)</string>
+				<string>axis(3-)</string>
+				<string>button(9)</string>
+				<string>button(8)</string>
+				<string></string>
+				<string></string>
+				<string>axis(0-)</string>
+				<string>axis(0+)</string>
+				<string>axis(1-)</string>
+				<string>axis(1+)</string>
+			</array>
+		</dict>
+		<key>Playstation 3 Controller</key>
+		<dict>
+			<key>USBName</key>
+			<string>PLAYSTATION(R)3 Controller</string>
+			<key>plugged</key>
+			<true/>
+			<key>plugin</key>
+			<integer>2</integer>
+			<key>mouse</key>
+			<false/>
+			<key>AnalogDeadzone</key>
+			<string>4096,4096</string>
+			<key>AnalogPeak</key>
+			<string>32768,32768</string>
+			<key>Mapping</key>
+			<array>
+				<string>button(5)</string>
+				<string>button(7)</string>
+				<string>button(6)</string>
+				<string>button(4)</string>
+				<string>button(3)</string>
+				<string>button(8)</string>
+				<string>button(15)</string>
+				<string>button(14)</string>
+				<string>axis(2-)</string>
+				<string>axis(2+)</string>
+				<string>axis(3+)</string>
+				<string>axis(3-)</string>
+				<string>button(11)</string>
+				<string>button(10)</string>
+				<string></string>
+				<string></string>
+				<string>axis(0-)</string>
+				<string>axis(0+)</string>
+				<string>axis(1-)</string>
+				<string>axis(1+)</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

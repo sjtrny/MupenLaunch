@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA11D7FD1539461E00F7D429 /* mupen64plus.app in Resources */ = {isa = PBXBuildFile; fileRef = AA11D7FC1539461E00F7D429 /* mupen64plus.app */; };
+		AA1822D515AD17BF00EC36A2 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = AA1822D415AD17BF00EC36A2 /* dsa_pub.pem */; };
+		AA2A467A1538613800B3DFF5 /* ROM.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2A46791538613800B3DFF5 /* ROM.m */; };
+		AA2F59D215A3040300D8302C /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F59D115A3040300D8302C /* SDL.framework */; };
+		AA2F59D815A3060800D8302C /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA2F59D115A3040300D8302C /* SDL.framework */; };
+		AA467B5115A93C0600AD7C89 /* eject1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA467B5015A93C0600AD7C89 /* eject1.png */; };
+		AA467B5915A93C1600AD7C89 /* iMac1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA467B5815A93C1600AD7C89 /* iMac1.png */; };
+		AA467B5B15A93C1A00AD7C89 /* xbox.png in Resources */ = {isa = PBXBuildFile; fileRef = AA467B5A15A93C1A00AD7C89 /* xbox.png */; };
+		AA4F92D116C753A6008FB67A /* EmulatorPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4F92D016C753A6008FB67A /* EmulatorPreferencesViewController.m */; };
+		AA4F92D316C75570008FB67A /* EmulatorPrefsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4F92D216C75570008FB67A /* EmulatorPrefsView.xib */; };
+		AA760957153DA23500F6A598 /* VideoPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA760956153DA23500F6A598 /* VideoPreferencesViewController.m */; };
+		AA76095B153DA36700F6A598 /* VideoPrefsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA76095A153DA36700F6A598 /* VideoPrefsView.xib */; };
+		AA8A4F7D159D4E31005ED49F /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA8A4F7C159D4E31005ED49F /* Defaults.plist */; };
+		AA8A4F80159D6DF1005ED49F /* EmulatorOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA8A4F7F159D6DF1005ED49F /* EmulatorOptions.plist */; };
+		AA8A4F82159D8FC5005ED49F /* ControllerPrefsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8A4F81159D8FC5005ED49F /* ControllerPrefsView.xib */; };
+		AA8A4F85159D97AB005ED49F /* ControllerPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A4F84159D97AB005ED49F /* ControllerPreferencesViewController.m */; };
+		AA95BDB315A7B1D30006F3C3 /* pref-picture.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AA95BDB215A7B1D30006F3C3 /* pref-picture.tiff */; };
+		AA9661F415AA5B040049AB64 /* Cart.icns in Resources */ = {isa = PBXBuildFile; fileRef = AA9661F315AA5B040049AB64 /* Cart.icns */; };
+		AA96625315AA8A610049AB64 /* MupenLaunch Help in Resources */ = {isa = PBXBuildFile; fileRef = AA96625215AA8A610049AB64 /* MupenLaunch Help */; };
+		AAA164B015A94D0F008DA729 /* stop1.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA164AD15A94D0F008DA729 /* stop1.png */; };
+		AAA164B915A94ED5008DA729 /* play1.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA164B715A94ED5008DA729 /* play1.png */; };
+		AAA164BA15A94ED5008DA729 /* pause1.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA164B815A94ED5008DA729 /* pause1.png */; };
+		AAAE777615A93FCD00562A1D /* Mupen.icns in Resources */ = {isa = PBXBuildFile; fileRef = AAAE777515A93FCD00562A1D /* Mupen.icns */; };
+		AAB1EC5C15ABF70B0003D44A /* LICENSES in Resources */ = {isa = PBXBuildFile; fileRef = AAB1EC5B15ABF70B0003D44A /* LICENSES */; };
+		AABEB53416F04A76004B3AE8 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = AABEB53216F04A76004B3AE8 /* md5.c */; };
+		AAC6D077153ADFFA00AD9D89 /* PrefrenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6D076153ADFFA00AD9D89 /* PrefrenceWindowController.m */; };
+		AAC6D079153AE03F00AD9D89 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC6D078153AE03F00AD9D89 /* PreferenceWindow.xib */; };
+		AAC78A2E15A5C0C500FF9E46 /* InputTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC78A2D15A5C0C500FF9E46 /* InputTableView.m */; };
+		AAC78A3F15A67C4D00FF9E46 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC78A3E15A67C4D00FF9E46 /* Carbon.framework */; };
+		AACC5858153464230025019A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACC5857153464230025019A /* MainWindow.xib */; };
+		AACC585A153464C30025019A /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACC5859153464C30025019A /* EmptyView.xib */; };
+		AACC585D153465420025019A /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC585C153465420025019A /* EmptyViewController.m */; };
+		AACC5860153467000025019A /* ROMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC585F153467000025019A /* ROMViewController.m */; };
+		AACC58621534670E0025019A /* ROMView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACC58611534670E0025019A /* ROMView.xib */; };
+		AACC586515346A7E0025019A /* DragWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC586415346A7E0025019A /* DragWindow.m */; };
+		AAD569AB169841CB00989B08 /* ErrorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD569AA169841CB00989B08 /* ErrorWindow.xib */; };
+		AAD569AE1698420000989B08 /* ErrorWinController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD569AD1698420000989B08 /* ErrorWinController.m */; };
+		AADEB0D315ABF39700AD3F11 /* mupen64plus-ui-console in Resources */ = {isa = PBXBuildFile; fileRef = AADEB0D215ABF39700AD3F11 /* mupen64plus-ui-console */; };
+		AAEB330815344DC4006ED732 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEB330715344DC4006ED732 /* Cocoa.framework */; };
+		AAEB331215344DC4006ED732 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAEB331015344DC4006ED732 /* InfoPlist.strings */; };
+		AAEB331415344DC4006ED732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB331315344DC4006ED732 /* main.m */; };
+		AAEB331815344DC4006ED732 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AAEB331615344DC4006ED732 /* Credits.rtf */; };
+		AAEB331B15344DC4006ED732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB331A15344DC4006ED732 /* AppDelegate.m */; };
+		AAEB331E15344DC4006ED732 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAEB331C15344DC4006ED732 /* MainMenu.xib */; };
+		AAEB332615344E04006ED732 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEB332515344E04006ED732 /* WindowController.m */; };
+		AAF9836616DB45A8004B3302 /* processor.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF9836516DB45A8004B3302 /* processor.png */; };
+		AAF9836A16DB6F77004B3302 /* ClickActionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF9836916DB6F77004B3302 /* ClickActionTextField.m */; };
+		AAFCA1B015A3CBF800D05C8C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFCA1AF15A3CBF800D05C8C /* Sparkle.framework */; };
+		AAFCA1B215A3CC1000D05C8C /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAFCA1AF15A3CBF800D05C8C /* Sparkle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA2F59D715A3060000D8302C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA2F59D815A3060800D8302C /* SDL.framework in CopyFiles */,
+				AAFCA1B215A3CC1000D05C8C /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA11D7FC1539461E00F7D429 /* mupen64plus.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = mupen64plus.app; path = ../mupen64plus.app; sourceTree = "<group>"; };
+		AA1822D415AD17BF00EC36A2 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		AA22104C15C758F700B07FD3 /* CarbonKeyEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarbonKeyEvents.h; sourceTree = "<group>"; };
+		AA2A46781538613700B3DFF5 /* ROM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROM.h; sourceTree = "<group>"; };
+		AA2A46791538613800B3DFF5 /* ROM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROM.m; sourceTree = "<group>"; };
+		AA2F59D115A3040300D8302C /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
+		AA467B5015A93C0600AD7C89 /* eject1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eject1.png; sourceTree = "<group>"; };
+		AA467B5815A93C1600AD7C89 /* iMac1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMac1.png; sourceTree = "<group>"; };
+		AA467B5A15A93C1A00AD7C89 /* xbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xbox.png; sourceTree = "<group>"; };
+		AA4F92CF16C753A6008FB67A /* EmulatorPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmulatorPreferencesViewController.h; sourceTree = "<group>"; };
+		AA4F92D016C753A6008FB67A /* EmulatorPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmulatorPreferencesViewController.m; sourceTree = "<group>"; };
+		AA4F92D216C75570008FB67A /* EmulatorPrefsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmulatorPrefsView.xib; sourceTree = "<group>"; };
+		AA760955153DA23500F6A598 /* VideoPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPreferencesViewController.h; sourceTree = "<group>"; };
+		AA760956153DA23500F6A598 /* VideoPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPreferencesViewController.m; sourceTree = "<group>"; };
+		AA76095A153DA36700F6A598 /* VideoPrefsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPrefsView.xib; sourceTree = "<group>"; };
+		AA8A4F7C159D4E31005ED49F /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		AA8A4F7F159D6DF1005ED49F /* EmulatorOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmulatorOptions.plist; sourceTree = "<group>"; };
+		AA8A4F81159D8FC5005ED49F /* ControllerPrefsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControllerPrefsView.xib; sourceTree = "<group>"; };
+		AA8A4F83159D97AB005ED49F /* ControllerPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerPreferencesViewController.h; sourceTree = "<group>"; };
+		AA8A4F84159D97AB005ED49F /* ControllerPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerPreferencesViewController.m; sourceTree = "<group>"; };
+		AA95BDB215A7B1D30006F3C3 /* pref-picture.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "pref-picture.tiff"; sourceTree = "<group>"; };
+		AA9661F315AA5B040049AB64 /* Cart.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Cart.icns; path = ../Cart.icns; sourceTree = "<group>"; };
+		AA96625215AA8A610049AB64 /* MupenLaunch Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "MupenLaunch Help"; sourceTree = "<group>"; };
+		AAA164AD15A94D0F008DA729 /* stop1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop1.png; sourceTree = "<group>"; };
+		AAA164B715A94ED5008DA729 /* play1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play1.png; sourceTree = "<group>"; };
+		AAA164B815A94ED5008DA729 /* pause1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause1.png; sourceTree = "<group>"; };
+		AAAE777515A93FCD00562A1D /* Mupen.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Mupen.icns; path = ../Mupen.icns; sourceTree = "<group>"; };
+		AAB1EC5B15ABF70B0003D44A /* LICENSES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSES; sourceTree = "<group>"; };
+		AABEB53216F04A76004B3AE8 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		AABEB53316F04A76004B3AE8 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		AAC6D075153ADFFA00AD9D89 /* PrefrenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefrenceWindowController.h; sourceTree = "<group>"; };
+		AAC6D076153ADFFA00AD9D89 /* PrefrenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefrenceWindowController.m; sourceTree = "<group>"; };
+		AAC6D078153AE03F00AD9D89 /* PreferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
+		AAC78A2C15A5C0C400FF9E46 /* InputTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTableView.h; sourceTree = "<group>"; };
+		AAC78A2D15A5C0C500FF9E46 /* InputTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTableView.m; sourceTree = "<group>"; };
+		AAC78A3E15A67C4D00FF9E46 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carbon.framework; sourceTree = "<group>"; };
+		AACC5857153464230025019A /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		AACC5859153464C30025019A /* EmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyView.xib; sourceTree = "<group>"; };
+		AACC585B153465420025019A /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
+		AACC585C153465420025019A /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
+		AACC585E153467000025019A /* ROMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROMViewController.h; sourceTree = "<group>"; };
+		AACC585F153467000025019A /* ROMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROMViewController.m; sourceTree = "<group>"; };
+		AACC58611534670E0025019A /* ROMView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ROMView.xib; sourceTree = "<group>"; };
+		AACC586315346A7E0025019A /* DragWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragWindow.h; sourceTree = "<group>"; };
+		AACC586415346A7E0025019A /* DragWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragWindow.m; sourceTree = "<group>"; };
+		AAD569AA169841CB00989B08 /* ErrorWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorWindow.xib; sourceTree = "<group>"; };
+		AAD569AC1698420000989B08 /* ErrorWinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorWinController.h; sourceTree = "<group>"; };
+		AAD569AD1698420000989B08 /* ErrorWinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorWinController.m; sourceTree = "<group>"; };
+		AADEB0D215ABF39700AD3F11 /* mupen64plus-ui-console */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "mupen64plus-ui-console"; sourceTree = "<group>"; };
+		AAEB330315344DC4006ED732 /* MupenLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MupenLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEB330715344DC4006ED732 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AAEB330A15344DC4006ED732 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AAEB330B15344DC4006ED732 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AAEB330C15344DC4006ED732 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAEB330F15344DC4006ED732 /* MupenLaunch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MupenLaunch-Info.plist"; sourceTree = "<group>"; };
+		AAEB331115344DC4006ED732 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAEB331315344DC4006ED732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAEB331515344DC4006ED732 /* MupenLaunch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MupenLaunch-Prefix.pch"; sourceTree = "<group>"; };
+		AAEB331715344DC4006ED732 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AAEB331915344DC4006ED732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAEB331A15344DC4006ED732 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAEB331D15344DC4006ED732 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AAEB332415344E04006ED732 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		AAEB332515344E04006ED732 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		AAF9836516DB45A8004B3302 /* processor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = processor.png; sourceTree = "<group>"; };
+		AAF9836816DB6F77004B3302 /* ClickActionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickActionTextField.h; sourceTree = "<group>"; };
+		AAF9836916DB6F77004B3302 /* ClickActionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickActionTextField.m; sourceTree = "<group>"; };
+		AAFCA1AF15A3CBF800D05C8C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAEB330015344DC4006ED732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F59D215A3040300D8302C /* SDL.framework in Frameworks */,
+				AAEB330815344DC4006ED732 /* Cocoa.framework in Frameworks */,
+				AAFCA1B015A3CBF800D05C8C /* Sparkle.framework in Frameworks */,
+				AAC78A3F15A67C4D00FF9E46 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0C6E4A153D88B8006AFB8B /* Preference Toolbar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9836516DB45A8004B3302 /* processor.png */,
+				AA467B5815A93C1600AD7C89 /* iMac1.png */,
+				AA467B5A15A93C1A00AD7C89 /* xbox.png */,
+				AA95BDB215A7B1D30006F3C3 /* pref-picture.tiff */,
+			);
+			name = "Preference Toolbar Icons";
+			sourceTree = "<group>";
+		};
+		AA0C6E4B153D88CC006AFB8B /* Toolbar icons */ = {
+			isa = PBXGroup;
+			children = (
+				AAA164B715A94ED5008DA729 /* play1.png */,
+				AAA164B815A94ED5008DA729 /* pause1.png */,
+				AAA164AD15A94D0F008DA729 /* stop1.png */,
+				AA467B5015A93C0600AD7C89 /* eject1.png */,
+			);
+			name = "Toolbar icons";
+			sourceTree = "<group>";
+		};
+		AA0C6E50153D8D33006AFB8B /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				AAC6D078153AE03F00AD9D89 /* PreferenceWindow.xib */,
+				AA76095A153DA36700F6A598 /* VideoPrefsView.xib */,
+				AA8A4F81159D8FC5005ED49F /* ControllerPrefsView.xib */,
+				AA4F92D216C75570008FB67A /* EmulatorPrefsView.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		AA0C6E51153D8D68006AFB8B /* Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				AACC5857153464230025019A /* MainWindow.xib */,
+				AACC5859153464C30025019A /* EmptyView.xib */,
+				AACC58611534670E0025019A /* ROMView.xib */,
+			);
+			name = "Main Window";
+			sourceTree = "<group>";
+		};
+		AAC6D07C153AECFD00AD9D89 /* Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB332415344E04006ED732 /* WindowController.h */,
+				AAEB332515344E04006ED732 /* WindowController.m */,
+				AACC585B153465420025019A /* EmptyViewController.h */,
+				AACC585C153465420025019A /* EmptyViewController.m */,
+				AACC585E153467000025019A /* ROMViewController.h */,
+				AACC585F153467000025019A /* ROMViewController.m */,
+				AACC586315346A7E0025019A /* DragWindow.h */,
+				AACC586415346A7E0025019A /* DragWindow.m */,
+			);
+			name = "Main Window";
+			sourceTree = "<group>";
+		};
+		AAC6D07D153AED0C00AD9D89 /* Preference Window */ = {
+			isa = PBXGroup;
+			children = (
+				AAC6D075153ADFFA00AD9D89 /* PrefrenceWindowController.h */,
+				AAC6D076153ADFFA00AD9D89 /* PrefrenceWindowController.m */,
+				AA760955153DA23500F6A598 /* VideoPreferencesViewController.h */,
+				AA760956153DA23500F6A598 /* VideoPreferencesViewController.m */,
+				AA8A4F83159D97AB005ED49F /* ControllerPreferencesViewController.h */,
+				AA8A4F84159D97AB005ED49F /* ControllerPreferencesViewController.m */,
+				AAC78A2C15A5C0C400FF9E46 /* InputTableView.h */,
+				AAC78A2D15A5C0C500FF9E46 /* InputTableView.m */,
+				AA22104C15C758F700B07FD3 /* CarbonKeyEvents.h */,
+				AA4F92CF16C753A6008FB67A /* EmulatorPreferencesViewController.h */,
+				AA4F92D016C753A6008FB67A /* EmulatorPreferencesViewController.m */,
+				AAF9836816DB6F77004B3302 /* ClickActionTextField.h */,
+				AAF9836916DB6F77004B3302 /* ClickActionTextField.m */,
+			);
+			name = "Preference Window";
+			sourceTree = "<group>";
+		};
+		AAD569A61698419600989B08 /* Error Window */ = {
+			isa = PBXGroup;
+			children = (
+				AAD569AC1698420000989B08 /* ErrorWinController.h */,
+				AAD569AD1698420000989B08 /* ErrorWinController.m */,
+			);
+			name = "Error Window";
+			sourceTree = "<group>";
+		};
+		AAEB32F815344DC4006ED732 = {
+			isa = PBXGroup;
+			children = (
+				AA0C6E4B153D88CC006AFB8B /* Toolbar icons */,
+				AA0C6E4A153D88B8006AFB8B /* Preference Toolbar Icons */,
+				AAEB332715344F55006ED732 /* Nibs */,
+				AAEB330D15344DC4006ED732 /* MupenLaunch */,
+				AAEB330E15344DC4006ED732 /* Supporting Files */,
+				AAEB330615344DC4006ED732 /* Frameworks */,
+				AAEB330415344DC4006ED732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAEB330415344DC4006ED732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB330315344DC4006ED732 /* MupenLaunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAEB330615344DC4006ED732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC78A3E15A67C4D00FF9E46 /* Carbon.framework */,
+				AAFCA1AF15A3CBF800D05C8C /* Sparkle.framework */,
+				AA2F59D115A3040300D8302C /* SDL.framework */,
+				AAEB330715344DC4006ED732 /* Cocoa.framework */,
+				AAEB330915344DC4006ED732 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAEB330915344DC4006ED732 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB330A15344DC4006ED732 /* AppKit.framework */,
+				AAEB330B15344DC4006ED732 /* CoreData.framework */,
+				AAEB330C15344DC4006ED732 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AAEB330D15344DC4006ED732 /* MupenLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				AAD569A61698419600989B08 /* Error Window */,
+				AAC6D07D153AED0C00AD9D89 /* Preference Window */,
+				AAC6D07C153AECFD00AD9D89 /* Main Window */,
+				AAEB331915344DC4006ED732 /* AppDelegate.h */,
+				AAEB331A15344DC4006ED732 /* AppDelegate.m */,
+				AA2A46781538613700B3DFF5 /* ROM.h */,
+				AA2A46791538613800B3DFF5 /* ROM.m */,
+				AABEB53216F04A76004B3AE8 /* md5.c */,
+				AABEB53316F04A76004B3AE8 /* md5.h */,
+			);
+			path = MupenLaunch;
+			sourceTree = "<group>";
+		};
+		AAEB330E15344DC4006ED732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB1EC5B15ABF70B0003D44A /* LICENSES */,
+				AA9661F315AA5B040049AB64 /* Cart.icns */,
+				AAAE777515A93FCD00562A1D /* Mupen.icns */,
+				AA11D7FC1539461E00F7D429 /* mupen64plus.app */,
+				AADEB0D215ABF39700AD3F11 /* mupen64plus-ui-console */,
+				AA96625215AA8A610049AB64 /* MupenLaunch Help */,
+				AAEB330F15344DC4006ED732 /* MupenLaunch-Info.plist */,
+				AA1822D415AD17BF00EC36A2 /* dsa_pub.pem */,
+				AAEB331015344DC4006ED732 /* InfoPlist.strings */,
+				AAEB331315344DC4006ED732 /* main.m */,
+				AAEB331515344DC4006ED732 /* MupenLaunch-Prefix.pch */,
+				AAEB331615344DC4006ED732 /* Credits.rtf */,
+				AA8A4F7C159D4E31005ED49F /* Defaults.plist */,
+				AA8A4F7F159D6DF1005ED49F /* EmulatorOptions.plist */,
+			);
+			name = "Supporting Files";
+			path = MupenLaunch;
+			sourceTree = "<group>";
+		};
+		AAEB332715344F55006ED732 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB331C15344DC4006ED732 /* MainMenu.xib */,
+				AA0C6E51153D8D68006AFB8B /* Main Window */,
+				AA0C6E50153D8D33006AFB8B /* Preferences */,
+				AAD569AA169841CB00989B08 /* ErrorWindow.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAEB330215344DC4006ED732 /* MupenLaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEB332115344DC4006ED732 /* Build configuration list for PBXNativeTarget "MupenLaunch" */;
+			buildPhases = (
+				AAEB32FF15344DC4006ED732 /* Sources */,
+				AAEB330015344DC4006ED732 /* Frameworks */,
+				AAEB330115344DC4006ED732 /* Resources */,
+				AA2F59D715A3060000D8302C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MupenLaunch;
+			productName = MupenLaunch;
+			productReference = AAEB330315344DC4006ED732 /* MupenLaunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAEB32FA15344DC4006ED732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stephen Tierney";
+			};
+			buildConfigurationList = AAEB32FD15344DC4006ED732 /* Build configuration list for PBXProject "MupenLaunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAEB32F815344DC4006ED732;
+			productRefGroup = AAEB330415344DC4006ED732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAEB330215344DC4006ED732 /* MupenLaunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAEB330115344DC4006ED732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEB331215344DC4006ED732 /* InfoPlist.strings in Resources */,
+				AAEB331815344DC4006ED732 /* Credits.rtf in Resources */,
+				AAEB331E15344DC4006ED732 /* MainMenu.xib in Resources */,
+				AACC5858153464230025019A /* MainWindow.xib in Resources */,
+				AACC585A153464C30025019A /* EmptyView.xib in Resources */,
+				AACC58621534670E0025019A /* ROMView.xib in Resources */,
+				AA11D7FD1539461E00F7D429 /* mupen64plus.app in Resources */,
+				AAC6D079153AE03F00AD9D89 /* PreferenceWindow.xib in Resources */,
+				AA76095B153DA36700F6A598 /* VideoPrefsView.xib in Resources */,
+				AA8A4F7D159D4E31005ED49F /* Defaults.plist in Resources */,
+				AA8A4F80159D6DF1005ED49F /* EmulatorOptions.plist in Resources */,
+				AA8A4F82159D8FC5005ED49F /* ControllerPrefsView.xib in Resources */,
+				AA95BDB315A7B1D30006F3C3 /* pref-picture.tiff in Resources */,
+				AA467B5115A93C0600AD7C89 /* eject1.png in Resources */,
+				AA467B5915A93C1600AD7C89 /* iMac1.png in Resources */,
+				AA467B5B15A93C1A00AD7C89 /* xbox.png in Resources */,
+				AAAE777615A93FCD00562A1D /* Mupen.icns in Resources */,
+				AAA164B015A94D0F008DA729 /* stop1.png in Resources */,
+				AAA164B915A94ED5008DA729 /* play1.png in Resources */,
+				AAA164BA15A94ED5008DA729 /* pause1.png in Resources */,
+				AA9661F415AA5B040049AB64 /* Cart.icns in Resources */,
+				AA96625315AA8A610049AB64 /* MupenLaunch Help in Resources */,
+				AADEB0D315ABF39700AD3F11 /* mupen64plus-ui-console in Resources */,
+				AAB1EC5C15ABF70B0003D44A /* LICENSES in Resources */,
+				AA1822D515AD17BF00EC36A2 /* dsa_pub.pem in Resources */,
+				AAD569AB169841CB00989B08 /* ErrorWindow.xib in Resources */,
+				AA4F92D316C75570008FB67A /* EmulatorPrefsView.xib in Resources */,
+				AAF9836616DB45A8004B3302 /* processor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAEB32FF15344DC4006ED732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEB331415344DC4006ED732 /* main.m in Sources */,
+				AAEB331B15344DC4006ED732 /* AppDelegate.m in Sources */,
+				AAEB332615344E04006ED732 /* WindowController.m in Sources */,
+				AACC585D153465420025019A /* EmptyViewController.m in Sources */,
+				AACC5860153467000025019A /* ROMViewController.m in Sources */,
+				AACC586515346A7E0025019A /* DragWindow.m in Sources */,
+				AA2A467A1538613800B3DFF5 /* ROM.m in Sources */,
+				AAC6D077153ADFFA00AD9D89 /* PrefrenceWindowController.m in Sources */,
+				AA760957153DA23500F6A598 /* VideoPreferencesViewController.m in Sources */,
+				AA8A4F85159D97AB005ED49F /* ControllerPreferencesViewController.m in Sources */,
+				AAC78A2E15A5C0C500FF9E46 /* InputTableView.m in Sources */,
+				AAD569AE1698420000989B08 /* ErrorWinController.m in Sources */,
+				AA4F92D116C753A6008FB67A /* EmulatorPreferencesViewController.m in Sources */,
+				AAF9836A16DB6F77004B3302 /* ClickActionTextField.m in Sources */,
+				AABEB53416F04A76004B3AE8 /* md5.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAEB331015344DC4006ED732 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEB331115344DC4006ED732 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AAEB331615344DC4006ED732 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEB331715344DC4006ED732 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AAEB331C15344DC4006ED732 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEB331D15344DC4006ED732 /* en */,
+			);
+			name = MainMenu.xib;
+			path = MupenLaunch;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAEB331F15344DC4006ED732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Library/Frameworks/SDL.framework/Versions/A/Headers/**";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAEB332015344DC4006ED732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Library/Frameworks/SDL.framework/Versions/A/Headers/**";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAEB332215344DC4006ED732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Stephen Tierney";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks/**",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MupenLaunch/MupenLaunch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Library/Frameworks/SDL.framework/Versions/A/Headers/**";
+				INFOPLIST_FILE = "MupenLaunch/MupenLaunch-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = MupenLaunch;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAEB332315344DC4006ED732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Stephen Tierney";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks/**",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MupenLaunch/MupenLaunch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Library/Frameworks/SDL.framework/Versions/A/Headers/**";
+				INFOPLIST_FILE = "MupenLaunch/MupenLaunch-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = MupenLaunch;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAEB32FD15344DC4006ED732 /* Build configuration list for PBXProject "MupenLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEB331F15344DC4006ED732 /* Debug */,
+				AAEB332015344DC4006ED732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEB332115344DC4006ED732 /* Build configuration list for PBXNativeTarget "MupenLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEB332215344DC4006ED732 /* Debug */,
+				AAEB332315344DC4006ED732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAEB32FA15344DC4006ED732 /* Project object */;
+}
